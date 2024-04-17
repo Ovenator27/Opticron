@@ -61,3 +61,9 @@ nav {
   padding: 0;
   height: 40px;
 }
+
+.home-container {
+  border: black solid;
+  width: 1280px;
+  text-align: center;
+}

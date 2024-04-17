@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "DyS5TSJO1Zh4NI+3okiMMcYqTSV5ER47tGIcuyu9PI0=",
+  "Hash": "ajwMgzs13oLatmNTOcaJd2+IbQxK8oo+KN+PEC3fjoU=",
   "Source": "Opticron",
   "BasePath": "_content/Opticron",
   "Mode": "Default",
@@ -243,6 +243,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/assets/new.png"
+    },
+    {
+      "Identity": "/Users/jason/Desktop/Learning Projects/Opticron/wwwroot/assets/search-icon.png",
+      "SourceId": "Opticron",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/jason/Desktop/Learning Projects/Opticron/wwwroot/",
+      "BasePath": "_content/Opticron",
+      "RelativePath": "assets/search-icon.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/assets/search-icon.png"
     },
     {
       "Identity": "/Users/jason/Desktop/Learning Projects/Opticron/wwwroot/assets/special_2.png",

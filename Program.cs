@@ -1,4 +1,9 @@
+using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.DependencyInjection;
+using Opticron.Data;
 var builder = WebApplication.CreateBuilder(args);
+builder.Services.AddDbContext<OpticronContext>(options =>
+    options.UseSqlite(builder.Configuration.GetConnectionString("OpticronContext") ?? throw new InvalidOperationException("Connection string 'OpticronContext' not found.")));
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();

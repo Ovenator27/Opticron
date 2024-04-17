@@ -1,8 +1,27 @@
-﻿@{
+﻿@model Opticron.Models.HomeData
+
+
+@{
     ViewData["Title"] = "Home Page";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+<div class="home-container">
+    <div class="navigation-card-container">
+        @foreach (var item in Model.NavigationCards)
+        {
+            @await Html.PartialAsync("~/Views/NavigationCards/Home.cshtml", item)
+        }
+    </div>
+    <div class="special-offer-container">
+        @foreach (var item in Model.SpecialOffers)
+        {
+            @await Html.PartialAsync("~/Views/SpecialOffers/Home.cshtml", item)
+        }
+    </div>
+    <div class="product-categories-container">
+        @foreach (var item in Model.ProductCategories)
+        {
+            @await Html.PartialAsync("~/Views/ProductCategories/Home.cshtml", item)
+        }
+    </div>
 </div>

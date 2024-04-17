@@ -45,6 +45,10 @@
       "PackagePath": "staticwebassets/assets/new.png"
     },
     {
+      "Id": "/Users/jason/Desktop/Learning Projects/Opticron/wwwroot/assets/search-icon.png",
+      "PackagePath": "staticwebassets/assets/search-icon.png"
+    },
+    {
       "Id": "/Users/jason/Desktop/Learning Projects/Opticron/wwwroot/assets/special_2.png",
       "PackagePath": "staticwebassets/assets/special_2.png"
     },
