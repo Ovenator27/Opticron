@@ -56,6 +56,17 @@ namespace Opticron.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("Id,Image,Description,Link")] ProductCategories productCategories)
         {
+            if (HttpContext.Request?.Form is FormCollection fc && fc.Files.Any())
+            {
+                var file = fc.Files[0];
+                using (var stream = file.OpenReadStream())
+                {
+                    var content = new byte[stream.Length];
+                    stream.Read(content, 0, content.Length);
+                    productCategories.Image = content;
+                }
+            }
+
             if (ModelState.IsValid)
             {
                 _context.Add(productCategories);
@@ -91,6 +102,17 @@ namespace Opticron.Controllers
             if (id != productCategories.Id)
             {
                 return NotFound();
+            }
+
+            if (HttpContext.Request?.Form is FormCollection fc && fc.Files.Any())
+            {
+                var file = fc.Files[0];
+                using (var stream = file.OpenReadStream())
+                {
+                    var content = new byte[stream.Length];
+                    stream.Read(content, 0, content.Length);
+                    productCategories.Image = content;
+                }
             }
 
             if (ModelState.IsValid)

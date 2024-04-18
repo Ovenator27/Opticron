@@ -249,6 +249,38 @@
       "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.min.js.map"
     },
     {
+      "Id": "/Users/jason/Desktop/Learning Projects/Opticron/wwwroot/lib/foundation/css/app.css",
+      "PackagePath": "staticwebassets/lib/foundation/css/app.css"
+    },
+    {
+      "Id": "/Users/jason/Desktop/Learning Projects/Opticron/wwwroot/lib/foundation/css/foundation.css",
+      "PackagePath": "staticwebassets/lib/foundation/css/foundation.css"
+    },
+    {
+      "Id": "/Users/jason/Desktop/Learning Projects/Opticron/wwwroot/lib/foundation/css/foundation.min.css",
+      "PackagePath": "staticwebassets/lib/foundation/css/foundation.min.css"
+    },
+    {
+      "Id": "/Users/jason/Desktop/Learning Projects/Opticron/wwwroot/lib/foundation/js/app.js",
+      "PackagePath": "staticwebassets/lib/foundation/js/app.js"
+    },
+    {
+      "Id": "/Users/jason/Desktop/Learning Projects/Opticron/wwwroot/lib/foundation/js/vendor/foundation.js",
+      "PackagePath": "staticwebassets/lib/foundation/js/vendor/foundation.js"
+    },
+    {
+      "Id": "/Users/jason/Desktop/Learning Projects/Opticron/wwwroot/lib/foundation/js/vendor/foundation.min.js",
+      "PackagePath": "staticwebassets/lib/foundation/js/vendor/foundation.min.js"
+    },
+    {
+      "Id": "/Users/jason/Desktop/Learning Projects/Opticron/wwwroot/lib/foundation/js/vendor/jquery.js",
+      "PackagePath": "staticwebassets/lib/foundation/js/vendor/jquery.js"
+    },
+    {
+      "Id": "/Users/jason/Desktop/Learning Projects/Opticron/wwwroot/lib/foundation/js/vendor/what-input.js",
+      "PackagePath": "staticwebassets/lib/foundation/js/vendor/what-input.js"
+    },
+    {
       "Id": "/Users/jason/Desktop/Learning Projects/Opticron/wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt",
       "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/LICENSE.txt"
     },
