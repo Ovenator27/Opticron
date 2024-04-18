@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "nT+2llDtN0irOqialWVknWHvzfYYmP75MEK3W0MvCiahum9ahWbRsz3Gm+c7Ovhra0vZBphxDKTidDl4TYRsqA==",
+  "dgSpecHash": "gyWeD+Uwgh7/ULXggWvM3PuAmmY1AmG8UKxBQK1duiFvcQI3zpBxa1GzRUwblAVvFDTpfkYT8uwFaLbZ6bGzHA==",
   "success": true,
   "projectFilePath": "/Users/jason/Desktop/Learning Projects/Opticron/Opticron.csproj",
   "expectedPackageFiles": [
     "/Users/jason/.nuget/packages/azure.core/1.35.0/azure.core.1.35.0.nupkg.sha512",
     "/Users/jason/.nuget/packages/azure.identity/1.10.3/azure.identity.1.10.3.nupkg.sha512",
+    "/Users/jason/.nuget/packages/foundation-sites/6.5.3/foundation-sites.6.5.3.nupkg.sha512",
     "/Users/jason/.nuget/packages/humanizer/2.14.1/humanizer.2.14.1.nupkg.sha512",
     "/Users/jason/.nuget/packages/humanizer.core/2.14.1/humanizer.core.2.14.1.nupkg.sha512",
     "/Users/jason/.nuget/packages/humanizer.core.af/2.14.1/humanizer.core.af.2.14.1.nupkg.sha512",
@@ -56,6 +57,7 @@
     "/Users/jason/.nuget/packages/humanizer.core.zh-cn/2.14.1/humanizer.core.zh-cn.2.14.1.nupkg.sha512",
     "/Users/jason/.nuget/packages/humanizer.core.zh-hans/2.14.1/humanizer.core.zh-hans.2.14.1.nupkg.sha512",
     "/Users/jason/.nuget/packages/humanizer.core.zh-hant/2.14.1/humanizer.core.zh-hant.2.14.1.nupkg.sha512",
+    "/Users/jason/.nuget/packages/jquery/2.2.0/jquery.2.2.0.nupkg.sha512",
     "/Users/jason/.nuget/packages/microsoft.aspnetcore.razor.language/6.0.24/microsoft.aspnetcore.razor.language.6.0.24.nupkg.sha512",
     "/Users/jason/.nuget/packages/microsoft.bcl.asyncinterfaces/7.0.0/microsoft.bcl.asyncinterfaces.7.0.0.nupkg.sha512",
     "/Users/jason/.nuget/packages/microsoft.build/17.8.3/microsoft.build.17.8.3.nupkg.sha512",
@@ -169,7 +171,19 @@
     "/Users/jason/.nuget/packages/system.threading.channels/7.0.0/system.threading.channels.7.0.0.nupkg.sha512",
     "/Users/jason/.nuget/packages/system.threading.tasks.dataflow/7.0.0/system.threading.tasks.dataflow.7.0.0.nupkg.sha512",
     "/Users/jason/.nuget/packages/system.threading.tasks.extensions/4.5.4/system.threading.tasks.extensions.4.5.4.nupkg.sha512",
-    "/Users/jason/.nuget/packages/system.windows.extensions/7.0.0/system.windows.extensions.7.0.0.nupkg.sha512"
+    "/Users/jason/.nuget/packages/system.windows.extensions/7.0.0/system.windows.extensions.7.0.0.nupkg.sha512",
+    "/Users/jason/.nuget/packages/what-input/2.0.1/what-input.2.0.1.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1602",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "foundation-sites 6.5.3 does not provide an inclusive lower bound for dependency what-input. An approximate best match of what-input 2.0.1 was resolved.",
+      "libraryId": "what-input",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    }
+  ]
 }

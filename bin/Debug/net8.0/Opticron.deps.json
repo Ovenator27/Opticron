@@ -12,7 +12,8 @@
           "Microsoft.EntityFrameworkCore.Sqlite": "8.0.4",
           "Microsoft.EntityFrameworkCore.SqlServer": "8.0.4",
           "Microsoft.EntityFrameworkCore.Tools": "8.0.4",
-          "Microsoft.VisualStudio.Web.CodeGeneration.Design": "8.0.2"
+          "Microsoft.VisualStudio.Web.CodeGeneration.Design": "8.0.2",
+          "foundation-sites": "6.5.3"
         },
         "runtime": {
           "Opticron.dll": {}
@@ -50,6 +51,12 @@
             "assemblyVersion": "1.10.3.0",
             "fileVersion": "1.1000.323.51804"
           }
+        }
+      },
+      "foundation-sites/6.5.3": {
+        "dependencies": {
+          "jQuery": "2.2.0",
+          "what-input": "2.0.1"
         }
       },
       "Humanizer/2.14.1": {
@@ -592,6 +599,7 @@
           }
         }
       },
+      "jQuery/2.2.0": {},
       "Microsoft.AspNetCore.Razor.Language/6.0.24": {
         "runtime": {
           "lib/netstandard2.0/Microsoft.AspNetCore.Razor.Language.dll": {
@@ -2035,7 +2043,8 @@
             "fileVersion": "7.0.22.51805"
           }
         }
-      }
+      },
+      "what-input/2.0.1": {}
     }
   },
   "libraries": {
@@ -2057,6 +2066,13 @@
       "sha512": "sha512-l1Xm2MWOF2Mzcwuarlw8kWQXLZk3UeB55aQXVyjj23aBfDwOZ3gu5GP2kJ6KlmZeZv2TCzw7x4L3V36iNr3gww==",
       "path": "azure.identity/1.10.3",
       "hashPath": "azure.identity.1.10.3.nupkg.sha512"
+    },
+    "foundation-sites/6.5.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-3Q5Sj5ZBRja+WbfkmNf+jDzxJh5Uc6JDIcBlEnRsQFzDM6CGDh0vOMLbwbntpFKIQKBor31jIKzYVgpqzfBuLA==",
+      "path": "foundation-sites/6.5.3",
+      "hashPath": "foundation-sites.6.5.3.nupkg.sha512"
     },
     "Humanizer/2.14.1": {
       "type": "package",
@@ -2407,6 +2423,13 @@
       "sha512": "sha512-VIXB7HCUC34OoaGnO3HJVtSv2/wljPhjV7eKH4+TFPgQdJj2lvHNKY41Dtg0Bphu7X5UaXFR4zrYYyo+GNOjbA==",
       "path": "humanizer.core.zh-hant/2.14.1",
       "hashPath": "humanizer.core.zh-hant.2.14.1.nupkg.sha512"
+    },
+    "jQuery/2.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-rHsE5sO10dBY/XflJwmz9bhU6f1pQpaFHSClunzXD/Vv0snvXwKSrDU9LuGAFevOPDWH20TZqjfHGYqCBC7PVg==",
+      "path": "jquery/2.2.0",
+      "hashPath": "jquery.2.2.0.nupkg.sha512"
     },
     "Microsoft.AspNetCore.Razor.Language/6.0.24": {
       "type": "package",
@@ -3205,6 +3228,13 @@
       "sha512": "sha512-bR4qdCmssMMbo9Fatci49An5B1UaVJZHKNq70PRgzoLYIlitb8Tj7ns/Xt5Pz1CkERiTjcVBDU2y1AVrPBYkaw==",
       "path": "system.windows.extensions/7.0.0",
       "hashPath": "system.windows.extensions.7.0.0.nupkg.sha512"
+    },
+    "what-input/2.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-4CY4s4b3YrHLUmHHNwg0LhkCwH2EswjkI32qCFuAciog4Tp5e2+2LQ95NKWCV6OtFPkNcT5uo1QbTkXNQm0XGg==",
+      "path": "what-input/2.0.1",
+      "hashPath": "what-input.2.0.1.nupkg.sha512"
     }
   }
 }

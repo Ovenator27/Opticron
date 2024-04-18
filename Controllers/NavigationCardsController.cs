@@ -56,6 +56,16 @@ namespace Opticron.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("Id,Title,Image,Description,Link,LinkText")] NavigationCards navigationCards)
         {
+            if (HttpContext.Request?.Form is FormCollection fc && fc.Files.Any())
+{
+    var file = fc.Files[0];
+    using (var stream = file.OpenReadStream())
+    {
+        var content = new byte[stream.Length];
+        stream.Read(content, 0, content.Length);
+        navigationCards.Image = content;
+    }
+}
             if (ModelState.IsValid)
             {
                 _context.Add(navigationCards);
@@ -86,11 +96,22 @@ namespace Opticron.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,Title,Image,Description,Link,LinkText")] NavigationCards navigationCards)
+        public async Task<IActionResult> Edit(int id, [Bind("Id,Title,Description,Link,LinkText")] NavigationCards navigationCards)
         {
             if (id != navigationCards.Id)
             {
                 return NotFound();
+            }
+
+            if (HttpContext.Request?.Form is FormCollection fc && fc.Files.Any())
+            {
+                var file = fc.Files[0];
+                using (var stream = file.OpenReadStream())
+                {
+                    var content = new byte[stream.Length];
+                    stream.Read(content, 0, content.Length);
+                    navigationCards.Image = content;
+                }
             }
 
             if (ModelState.IsValid)
