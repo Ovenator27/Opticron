@@ -16,10 +16,14 @@
         }
     </div>
     <div class="special-offer-container row">
+        <h3 style="margin: 2rem;">Special Offers</h3>
         @foreach (var item in Model.SpecialOffers)
         {
             @await Html.PartialAsync("~/Views/SpecialOffers/Home.cshtml", item)
         }
+        <div>
+        <button style="margin: 1rem;">View all offers</button>
+        </div>
     </div>
     <div class="product-categories-container row">
         @foreach (var item in Model.ProductCategories)

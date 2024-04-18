@@ -78,8 +78,20 @@ nav {
 
 .home-container {
   margin-top: 65px;
-  /* border: black solid; */
   text-align: center;
+}
+
+.navigation-card-container {
+  text-align: left;
+  color: #808184;
+}
+
+button {
+  width: 165px;
+  background-color: #008542;
+  color: white;
+  border: none;
+  padding: 5px 15px;
 }
 
 .thumbnail {
@@ -91,4 +103,16 @@ nav {
   height : auto;
   max-height: 100%;
   max-width: 100%;
+}
+
+.special-offer-container {
+  color: #808184;
+  padding: 2rem;
+  margin-top: 65px;
+  background-color: #e6e7e8
+}
+
+.special-offer-text {
+  align-items: center;
+  background-color: white;
 }
