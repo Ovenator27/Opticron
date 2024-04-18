@@ -77,11 +77,18 @@ nav {
 }
 
 .home-container {
-  border: black solid;
-  width: 1280px;
+  margin-top: 65px;
+  /* border: black solid; */
   text-align: center;
 }
 
 .thumbnail {
   height: 50px;
+}
+
+.home-image {
+  width: auto;
+  height : auto;
+  max-height: 100%;
+  max-width: 100%;
 }

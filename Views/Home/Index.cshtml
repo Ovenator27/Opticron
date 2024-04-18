@@ -8,20 +8,20 @@
 <img src='/assets/banner.png' id='banner'>
 
 
-<div class="home-container">
-    <div class="navigation-card-container">
+<div class="home-container container">
+    <div class="navigation-card-container row">
         @foreach (var item in Model.NavigationCards)
         {
             @await Html.PartialAsync("~/Views/NavigationCards/Home.cshtml", item)
         }
     </div>
-    <div class="special-offer-container">
+    <div class="special-offer-container row">
         @foreach (var item in Model.SpecialOffers)
         {
             @await Html.PartialAsync("~/Views/SpecialOffers/Home.cshtml", item)
         }
     </div>
-    <div class="product-categories-container">
+    <div class="product-categories-container row">
         @foreach (var item in Model.ProductCategories)
         {
             @await Html.PartialAsync("~/Views/ProductCategories/Home.cshtml", item)
