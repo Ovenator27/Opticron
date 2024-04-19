@@ -36,6 +36,18 @@ nav {
   padding: 0px;
 }
 
+.nav-top {
+  width: 100%;
+display: flex;
+justify-content: space-between;
+}
+
+.nav-toggle-container {
+  color: #808184;
+  display: flex;
+  align-items: center;
+}
+
 #nav-logo {
   height: 50px;
   width: auto;
@@ -90,6 +102,10 @@ nav {
 .navigation-card-container {
   text-align: left;
   color: #808184;
+}
+
+.navigation-card {
+  margin-bottom: 2rem;
 }
 
 .home-button {
