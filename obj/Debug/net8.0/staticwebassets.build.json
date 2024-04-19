@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "GDH42X8dXmveV4j54TE7/FDtxv0MHm+h/yzgoUWtoFU=",
+  "Hash": "ZmJ1gFMSP84M5u5grUo+yuD7nCOf4V0RCY+CmTaAl3o=",
   "Source": "Opticron",
   "BasePath": "_content/Opticron",
   "Mode": "Default",
@@ -167,6 +167,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/assets/binoculars_4.png"
+    },
+    {
+      "Identity": "/Users/jason/Desktop/Learning Projects/Opticron/wwwroot/assets/contact-info.png",
+      "SourceId": "Opticron",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/jason/Desktop/Learning Projects/Opticron/wwwroot/",
+      "BasePath": "_content/Opticron",
+      "RelativePath": "assets/contact-info.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/assets/contact-info.png"
     },
     {
       "Identity": "/Users/jason/Desktop/Learning Projects/Opticron/wwwroot/assets/event.png",

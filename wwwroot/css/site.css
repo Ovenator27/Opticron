@@ -21,10 +21,6 @@ html {
   min-height: 100%;
 }
 
-body {
-  margin-bottom: 60px;
-}
-
 nav {
   background-color: #e6e7e8;
 }
@@ -34,7 +30,6 @@ nav {
 }
 
 #nav-container {
-  width: 67vw;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -74,6 +69,9 @@ nav {
 }
 
 #wrapper {
+  width: 100vw;
+  position: relative;
+  left: calc(-50vw + 50%);
   overflow: hidden;
 }
 #banner {
@@ -152,18 +150,40 @@ nav {
 .nextArrowBtn{
   position: absolute;
   top: 15%;
-  right: -10%;
+  right: -5%;
   height: 60px;
   cursor: pointer;
 }
 .prevArrowBtn{
   position: absolute;
   top: 15%;
-  left: -10%;
+  left: -5%;
   height: 60px;
   cursor: pointer;
 }
 
-.footer-container {
+footer {
+  margin-top: 10px;
+  justify-content: center;
+  display: flex;
   background-color: #babdbf;
+}
+
+.footer-container {
+  padding: 0px;
+  width: 80vw;
+}
+
+.footer-info {
+  color: white;
+  margin: 1.5rem 0rem;
+}
+
+.footer-logo-container {
+  padding: 1rem;
+}
+
+.footer-logo {
+  width: 330px;
+  height: auto;
 }

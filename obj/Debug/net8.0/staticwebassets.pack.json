@@ -29,6 +29,10 @@
       "PackagePath": "staticwebassets/assets/binoculars_4.png"
     },
     {
+      "Id": "/Users/jason/Desktop/Learning Projects/Opticron/wwwroot/assets/contact-info.png",
+      "PackagePath": "staticwebassets/assets/contact-info.png"
+    },
+    {
       "Id": "/Users/jason/Desktop/Learning Projects/Opticron/wwwroot/assets/event.png",
       "PackagePath": "staticwebassets/assets/event.png"
     },
