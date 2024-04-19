@@ -10,10 +10,10 @@
     }
 }
 
-<div class="col-12 col-lg-4">
+<div class="special-offer-container col-12 col-lg-4">
     <img src="@imgSrc" class="home-image" />
-    <div class="special-offer-text">
-    <p>@Html.DisplayFor(model => model.Description)</p>
-    <p>@Html.DisplayFor(model => model.OfferText)</p>
+    <div class="special-offer-text-container">
+            <p class="special-offer-main-text">@Html.DisplayFor(model => model.Description)</p>
+            <p class="special-offer-second-text">@Html.DisplayFor(model => model.OfferText)</p>
     </div>
 </div>

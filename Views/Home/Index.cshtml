@@ -15,20 +15,23 @@
             @await Html.PartialAsync("~/Views/NavigationCards/Home.cshtml", item)
         }
     </div>
-    <div class="special-offer-container row">
+    <div class="special-offers-container row">
         <h3 style="margin: 2rem;">Special Offers</h3>
         @foreach (var item in Model.SpecialOffers)
         {
             @await Html.PartialAsync("~/Views/SpecialOffers/Home.cshtml", item)
         }
         <div>
-        <button style="margin: 1rem;">View all offers</button>
+        <button class="home-button" style="margin: 1rem;">View all offers</button>
         </div>
     </div>
     <div class="product-categories-container row">
+        <h3 style="margin: 2rem;">Product Categories</h3>
+        <div class="categories-carousel">
         @foreach (var item in Model.ProductCategories)
         {
             @await Html.PartialAsync("~/Views/ProductCategories/Home.cshtml", item)
         }
+        </div>
     </div>
 </div>

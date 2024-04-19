@@ -50,6 +50,10 @@ nav {
   margin-top: 30px;
 }
 
+.nav-item {
+  text-wrap: nowrap;
+}
+
 .nav-link {
   margin-right: 2rem;
   text-align: left;
@@ -58,6 +62,10 @@ nav {
 
 .search-container {
   height: 40px;
+}
+
+.search-field {
+  min-width: 150px;
 }
 
 .search-btn {
@@ -86,7 +94,7 @@ nav {
   color: #808184;
 }
 
-button {
+.home-button {
   width: 165px;
   background-color: #008542;
   color: white;
@@ -105,14 +113,57 @@ button {
   max-width: 100%;
 }
 
-.special-offer-container {
+.special-offers-container {
   color: #808184;
   padding: 2rem;
   margin-top: 65px;
   background-color: #e6e7e8
 }
 
-.special-offer-text {
-  align-items: center;
+.special-offer-container {
+  margin-bottom: 30px;
+}
+
+.special-offer-text-container {
   background-color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+.special-offer-main-text {
+  margin-bottom: 0px;
+}
+
+.special-offer-second-text {
+  font-weight: bold;
+  color: black;
+}
+
+.product-categories-container {
+  margin-top: 65px;
+  color: #808184;
+}
+
+.product-categories-text {
+  margin-top: 40px;
+  font-weight: normal;
+}
+
+.nextArrowBtn{
+  position: absolute;
+  top: 15%;
+  right: -10%;
+  height: 60px;
+  cursor: pointer;
+}
+.prevArrowBtn{
+  position: absolute;
+  top: 15%;
+  left: -10%;
+  height: 60px;
+  cursor: pointer;
+}
+
+.footer-container {
+  background-color: #babdbf;
 }

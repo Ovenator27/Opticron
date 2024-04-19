@@ -8,11 +8,12 @@
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/Opticron.styles.css" asp-append-version="true" />
+    <link rel="stylesheet" type="text/css" href="~/lib/slick/slick.css"/>
 </head>
 
 <body>
     <header>
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light border-bottom box-shadow">
+        <nav class="navbar navbar-expand-lg navbar-toggleable-lg navbar-light border-bottom box-shadow">
             <div id="nav-container" class="container">
                 <div>
                     <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index"><img id="nav-logo"
@@ -23,8 +24,8 @@
                         <span class="navbar-toggler-icon"></span>
                     </button>
                 </div>
-                <div class="container-fluid d-flex align-items-end">
-                    <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between ">
+                <div class="container-fluid d-flex align-items-end justify-between">
+                    <div class="navbar-collapse collapse d-lg-inline-flex justify-content-between ">
                         <ul class="navbar-nav flex-grow-1">
                             <li class="nav-item">
                                 <a class="nav-link" asp-area="" asp-controller="" asp-action="">Our Products</a>
@@ -45,7 +46,7 @@
                     </div>
                     <div class="search-container ">
                         <form class="d-flex form-inline my-2 my-lg-0">
-                            <input class="form-control" type="search" placeholder="My Opticron..." aria-label="Search">
+                            <input class="search-field form-control" type="search" placeholder="My Opticron..." aria-label="Search">
                             <button class="search-btn btn" type="submit"><img class="h-100" src="~/assets/search-icon.png" alt=""></button>
                         </form>
                     </div>
@@ -59,7 +60,7 @@
         </main>
     </div>
 
-    <footer class="border-top footer text-muted">
+    <footer class="border-top footer text-muted footer-container">
         <div class="container">
             &copy; 2024 - Opticron - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
         </div>
@@ -67,6 +68,7 @@
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
+    <script type="text/javascript" src="~/lib/slick/slick.min.js"></script>
     @await RenderSectionAsync("Scripts", required: false)
 </body>
 

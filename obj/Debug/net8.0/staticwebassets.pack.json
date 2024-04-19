@@ -37,12 +37,20 @@
       "PackagePath": "staticwebassets/assets/gallery.png"
     },
     {
+      "Id": "/Users/jason/Desktop/Learning Projects/Opticron/wwwroot/assets/left-arrow.png",
+      "PackagePath": "staticwebassets/assets/left-arrow.png"
+    },
+    {
       "Id": "/Users/jason/Desktop/Learning Projects/Opticron/wwwroot/assets/logo.png",
       "PackagePath": "staticwebassets/assets/logo.png"
     },
     {
       "Id": "/Users/jason/Desktop/Learning Projects/Opticron/wwwroot/assets/new.png",
       "PackagePath": "staticwebassets/assets/new.png"
+    },
+    {
+      "Id": "/Users/jason/Desktop/Learning Projects/Opticron/wwwroot/assets/right-arrow.png",
+      "PackagePath": "staticwebassets/assets/right-arrow.png"
     },
     {
       "Id": "/Users/jason/Desktop/Learning Projects/Opticron/wwwroot/assets/search-icon.png",
@@ -299,6 +307,62 @@
     {
       "Id": "/Users/jason/Desktop/Learning Projects/Opticron/wwwroot/lib/jquery/dist/jquery.min.map",
       "PackagePath": "staticwebassets/lib/jquery/dist/jquery.min.map"
+    },
+    {
+      "Id": "/Users/jason/Desktop/Learning Projects/Opticron/wwwroot/lib/slick/ajax-loader.gif",
+      "PackagePath": "staticwebassets/lib/slick/ajax-loader.gif"
+    },
+    {
+      "Id": "/Users/jason/Desktop/Learning Projects/Opticron/wwwroot/lib/slick/config.rb",
+      "PackagePath": "staticwebassets/lib/slick/config.rb"
+    },
+    {
+      "Id": "/Users/jason/Desktop/Learning Projects/Opticron/wwwroot/lib/slick/fonts/slick.eot",
+      "PackagePath": "staticwebassets/lib/slick/fonts/slick.eot"
+    },
+    {
+      "Id": "/Users/jason/Desktop/Learning Projects/Opticron/wwwroot/lib/slick/fonts/slick.svg",
+      "PackagePath": "staticwebassets/lib/slick/fonts/slick.svg"
+    },
+    {
+      "Id": "/Users/jason/Desktop/Learning Projects/Opticron/wwwroot/lib/slick/fonts/slick.ttf",
+      "PackagePath": "staticwebassets/lib/slick/fonts/slick.ttf"
+    },
+    {
+      "Id": "/Users/jason/Desktop/Learning Projects/Opticron/wwwroot/lib/slick/fonts/slick.woff",
+      "PackagePath": "staticwebassets/lib/slick/fonts/slick.woff"
+    },
+    {
+      "Id": "/Users/jason/Desktop/Learning Projects/Opticron/wwwroot/lib/slick/slick-theme.css",
+      "PackagePath": "staticwebassets/lib/slick/slick-theme.css"
+    },
+    {
+      "Id": "/Users/jason/Desktop/Learning Projects/Opticron/wwwroot/lib/slick/slick-theme.less",
+      "PackagePath": "staticwebassets/lib/slick/slick-theme.less"
+    },
+    {
+      "Id": "/Users/jason/Desktop/Learning Projects/Opticron/wwwroot/lib/slick/slick-theme.scss",
+      "PackagePath": "staticwebassets/lib/slick/slick-theme.scss"
+    },
+    {
+      "Id": "/Users/jason/Desktop/Learning Projects/Opticron/wwwroot/lib/slick/slick.css",
+      "PackagePath": "staticwebassets/lib/slick/slick.css"
+    },
+    {
+      "Id": "/Users/jason/Desktop/Learning Projects/Opticron/wwwroot/lib/slick/slick.js",
+      "PackagePath": "staticwebassets/lib/slick/slick.js"
+    },
+    {
+      "Id": "/Users/jason/Desktop/Learning Projects/Opticron/wwwroot/lib/slick/slick.less",
+      "PackagePath": "staticwebassets/lib/slick/slick.less"
+    },
+    {
+      "Id": "/Users/jason/Desktop/Learning Projects/Opticron/wwwroot/lib/slick/slick.min.js",
+      "PackagePath": "staticwebassets/lib/slick/slick.min.js"
+    },
+    {
+      "Id": "/Users/jason/Desktop/Learning Projects/Opticron/wwwroot/lib/slick/slick.scss",
+      "PackagePath": "staticwebassets/lib/slick/slick.scss"
     },
     {
       "Id": "obj/Debug/net8.0/staticwebassets/msbuild.Opticron.Microsoft.AspNetCore.StaticWebAssets.props",
